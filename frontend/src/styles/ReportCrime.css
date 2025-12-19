@@ -1,0 +1,62 @@
+
+.report-crime {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.report-crime h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111827;
+}
+
+.report-crime form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.report-crime label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #374151;
+  font-size: 16px;
+}
+
+.report-crime input[type="text"],
+.report-crime input[type="date"],
+.report-crime input[type="file"],
+.report-crime textarea {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.report-crime textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.report-crime button {
+  padding: 12px;
+  background-color: #111827;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.report-crime button:hover {
+  background-color: #374151;
+}

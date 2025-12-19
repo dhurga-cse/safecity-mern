@@ -1,0 +1,49 @@
+
+.page {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #f3f4f6;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page h1 {
+  text-align: center;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.page input,
+.page textarea {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.page textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.page button {
+  padding: 12px;
+  background-color: #111827;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.page button:hover {
+  background-color: #374151;
+}
